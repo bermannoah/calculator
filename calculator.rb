@@ -1,8 +1,11 @@
+puts "Enter done when you've added all the numbers you need."
+puts "This might not work so well with 0. Just a warning."
+
 numbers = []
 
 user_input = nil
 while user_input != 'done'
-print "What number do  you want to include? > "
+print "What number do you want to include? > "
   user_input = gets.chomp
   numbers.push(user_input.to_f)
 end
